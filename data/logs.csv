@@ -1,0 +1,610 @@
+timestamp,source,username,ip,action,status,details
+2026-10-23 06:24:16,Web,eve,192.168.3.60,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 06:41:34,Web,eve,192.168.3.10,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 06:43:41,Web,dave,172.16.5.16,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 06:47:17,Auth,alice,192.168.1.25,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 06:55:07,Auth,carol,10.0.0.19,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 07:02:42,Auth,bob,192.168.2.24,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 07:05:46,Auth,dave,172.16.5.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 07:24:06,Web,alice,192.168.1.32,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 07:43:47,Auth,alice,192.168.1.44,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 07:54:14,Auth,bob,192.168.2.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 07:59:48,Web,eve,192.168.3.25,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 08:13:48,Web,alice,192.168.1.16,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 08:16:08,Web,bob,192.168.2.57,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 08:26:31,Web,eve,192.168.3.23,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 08:32:58,Web,carol,10.0.0.50,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 08:44:27,Web,alice,192.168.1.27,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:06:06,Web,dave,172.16.5.37,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:08:32,Auth,carol,10.0.0.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 09:09:23,Web,carol,10.0.0.20,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:10:29,Web,bob,192.168.2.27,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:18:13,Web,eve,192.168.3.47,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:34:28,Auth,eve,192.168.3.18,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 09:52:02,Web,bob,192.168.2.30,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 09:59:34,Web,dave,172.16.5.56,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 10:15:03,Auth,dave,172.16.5.25,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 10:27:10,Web,carol,10.0.0.10,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 10:29:15,Auth,eve,192.168.3.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 10:49:41,Web,carol,10.0.0.17,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 10:51:55,Web,alice,192.168.1.58,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 10:53:40,Web,carol,10.0.0.48,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 11:01:37,Web,dave,172.16.5.24,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 11:04:32,Web,dave,172.16.5.27,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 11:13:42,Auth,bob,192.168.2.27,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 11:27:26,Web,dave,172.16.5.56,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 11:53:49,Web,bob,192.168.2.13,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 12:02:01,Auth,alice,192.168.1.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 12:17:04,Web,bob,192.168.2.46,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 12:46:21,Auth,eve,192.168.3.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 12:56:58,Web,bob,192.168.2.39,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 12:57:03,Web,eve,192.168.3.34,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 13:01:07,Auth,dave,172.16.5.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 13:07:15,Web,dave,172.16.5.14,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 13:15:50,Web,dave,172.16.5.36,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 13:18:27,Web,eve,192.168.3.56,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 13:34:07,Web,alice,192.168.1.15,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 13:40:53,Auth,bob,192.168.2.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 14:10:16,Auth,dave,172.16.5.43,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 14:12:45,Web,alice,192.168.1.54,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 14:26:14,Web,alice,192.168.1.47,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 14:42:45,Web,eve,192.168.3.19,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 14:49:08,Auth,dave,172.16.5.18,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 14:49:59,Web,carol,10.0.0.10,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 15:14:00,Web,dave,172.16.5.55,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 15:16:51,Web,alice,192.168.1.56,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 15:27:57,Auth,carol,10.0.0.47,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 15:29:33,Auth,carol,10.0.0.26,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 15:40:10,Web,bob,192.168.2.56,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 16:03:14,Web,dave,172.16.5.12,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 16:27:38,Auth,carol,10.0.0.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 16:31:13,Web,dave,172.16.5.18,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 16:39:56,Auth,bob,192.168.2.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-23 16:41:23,Web,dave,172.16.5.43,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 16:44:35,Web,bob,192.168.2.53,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 16:46:07,Web,carol,10.0.0.44,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 17:12:45,Web,dave,172.16.5.35,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 17:20:13,Web,bob,192.168.2.41,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 17:34:03,Web,eve,192.168.3.30,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 17:56:46,Web,carol,10.0.0.42,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-23 17:59:56,Web,dave,172.16.5.46,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 06:00:21,Web,bob,192.168.2.18,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 06:02:15,Web,dave,172.16.5.49,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 06:33:59,Web,carol,10.0.0.44,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 06:37:30,Auth,alice,192.168.1.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 06:54:30,Auth,carol,10.0.0.24,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 06:54:56,Web,eve,192.168.3.46,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 06:57:48,Web,dave,172.16.5.59,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:04:56,Web,bob,192.168.2.19,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:22:49,Web,bob,192.168.2.36,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:29:26,Web,dave,172.16.5.46,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:40:27,Web,bob,192.168.2.27,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:45:18,Auth,eve,192.168.3.25,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 07:49:27,Web,dave,172.16.5.21,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:52:48,Web,dave,172.16.5.53,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 07:56:16,Web,carol,10.0.0.47,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 08:04:38,Auth,alice,192.168.1.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 08:16:07,Auth,bob,192.168.2.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 08:17:18,Auth,bob,192.168.2.48,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 08:42:41,Web,alice,192.168.1.39,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 08:47:55,Auth,eve,192.168.3.40,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 08:50:44,Auth,carol,10.0.0.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 08:51:29,Web,dave,172.16.5.43,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 08:56:26,Web,bob,192.168.2.21,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 09:01:42,Auth,carol,10.0.0.22,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 09:16:02,Web,carol,10.0.0.37,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 09:23:27,Web,carol,10.0.0.52,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 09:24:44,Auth,eve,192.168.3.19,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 09:27:50,Auth,dave,172.16.5.47,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 09:31:14,Web,eve,192.168.3.37,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 09:45:44,Web,dave,172.16.5.41,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 09:53:40,Auth,eve,192.168.3.27,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 09:58:54,Web,dave,172.16.5.39,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:02:06,Web,carol,10.0.0.37,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:10:28,Web,alice,192.168.1.44,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:14:51,Web,dave,172.16.5.19,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:23:57,Web,bob,192.168.2.12,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:35:08,Web,carol,10.0.0.36,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 10:55:04,Auth,carol,10.0.0.59,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 10:57:58,Web,bob,192.168.2.13,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:13:43,Auth,bob,192.168.2.50,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 11:13:43,Web,bob,192.168.2.52,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:29:28,Auth,dave,172.16.5.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 11:39:20,Web,carol,10.0.0.17,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:46:50,Web,carol,10.0.0.37,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:56:04,Web,alice,192.168.1.33,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:57:34,Auth,eve,192.168.3.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 11:59:16,Web,alice,192.168.1.52,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 11:59:48,Web,alice,192.168.1.10,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:03:13,Web,eve,192.168.3.36,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:07:56,Web,alice,192.168.1.25,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:15:09,Web,dave,172.16.5.54,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:26:21,Web,eve,192.168.3.39,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:30:00,Web,eve,192.168.3.29,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:35:53,Auth,dave,172.16.5.10,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 12:42:37,Web,alice,192.168.1.43,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:54:57,Web,eve,192.168.3.36,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 12:57:49,Web,eve,192.168.3.54,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 13:01:24,Web,eve,192.168.3.52,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 13:22:19,Auth,carol,10.0.0.60,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 13:39:36,Web,alice,192.168.1.14,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:02:53,Web,bob,192.168.2.47,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:09:27,Web,bob,192.168.2.12,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:10:03,Auth,alice,192.168.1.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 14:13:32,Web,alice,192.168.1.18,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:19:59,Auth,bob,192.168.2.52,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 14:30:50,Auth,dave,172.16.5.60,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 14:31:40,Auth,eve,192.168.3.25,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 14:38:20,Web,dave,172.16.5.38,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:45:27,Web,bob,192.168.2.10,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 14:47:47,Web,eve,192.168.3.48,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 15:32:07,Web,carol,10.0.0.46,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 15:38:02,Web,alice,192.168.1.15,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 15:47:09,Web,bob,192.168.2.20,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 15:51:26,Auth,bob,192.168.2.43,LOGIN,FAILED,Invalid credentials provided
+2026-10-24 15:51:41,Auth,bob,192.168.2.43,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 15:52:46,Web,dave,172.16.5.37,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:05:18,Auth,dave,172.16.5.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-24 16:16:10,Web,bob,192.168.2.38,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:24:43,Web,carol,10.0.0.21,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:26:20,Web,carol,10.0.0.54,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:46:47,Web,carol,10.0.0.52,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:53:34,Web,carol,10.0.0.11,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 16:55:47,Web,bob,192.168.2.25,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 17:20:15,Web,alice,192.168.1.35,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 17:33:29,Web,dave,172.16.5.45,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 17:57:19,Web,carol,10.0.0.29,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-24 17:59:21,Web,bob,192.168.2.36,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 06:10:50,Auth,eve,192.168.3.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 06:29:05,Web,eve,192.168.3.26,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 06:35:18,Web,carol,10.0.0.18,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 06:36:18,Web,carol,10.0.0.40,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 06:42:55,Web,eve,192.168.3.39,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 06:54:26,Auth,bob,192.168.2.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 07:10:00,Web,dave,172.16.5.38,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:10:15,Web,dave,172.16.5.45,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:14:43,Web,eve,192.168.3.46,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:15:46,Web,bob,192.168.2.41,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:17:56,Web,bob,192.168.2.25,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:30:22,Web,eve,192.168.3.31,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 07:36:40,Auth,dave,172.16.5.53,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 08:27:11,Web,bob,192.168.2.43,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 08:31:13,Web,bob,192.168.2.26,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 08:37:27,Web,eve,192.168.3.41,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 08:51:36,Auth,dave,172.16.5.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 08:53:29,Auth,alice,192.168.1.18,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 08:58:17,Web,dave,172.16.5.19,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:07:35,Auth,dave,172.16.5.58,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 09:08:30,Web,alice,192.168.1.17,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:13:47,Web,carol,10.0.0.27,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:18:45,Web,dave,172.16.5.54,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:23:11,Web,carol,10.0.0.10,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:29:20,Auth,alice,192.168.1.31,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 09:40:13,Web,dave,172.16.5.52,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 09:53:01,Web,alice,192.168.1.19,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 10:06:37,Web,alice,192.168.1.29,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 10:06:53,Web,carol,10.0.0.28,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 10:16:14,Auth,carol,10.0.0.17,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 10:35:00,Web,bob,192.168.2.22,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 10:44:25,Auth,eve,192.168.3.27,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 11:01:31,Web,bob,192.168.2.30,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:07:47,Auth,carol,10.0.0.44,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 11:07:49,Web,eve,192.168.3.42,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:10:38,Web,alice,192.168.1.57,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:14:41,Web,alice,192.168.1.59,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:17:56,Web,bob,192.168.2.54,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:26:44,Web,eve,192.168.3.28,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 11:30:35,Auth,carol,10.0.0.43,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 11:42:06,Web,eve,192.168.3.20,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 12:03:12,Web,eve,192.168.3.33,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 12:07:34,Web,dave,172.16.5.51,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 12:17:48,Auth,alice,192.168.1.36,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 12:28:58,Auth,dave,172.16.5.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 12:44:15,Auth,carol,10.0.0.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 12:45:12,Auth,bob,192.168.2.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 13:01:47,Web,alice,192.168.1.13,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:04:43,Web,dave,172.16.5.26,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:05:38,Web,eve,192.168.3.37,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:07:52,Web,carol,10.0.0.35,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:11:03,Auth,alice,192.168.1.26,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 13:21:11,Web,carol,10.0.0.26,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:29:27,Web,bob,192.168.2.56,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:33:41,Web,eve,192.168.3.27,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:36:39,Web,bob,192.168.2.34,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 13:50:01,Auth,carol,10.0.0.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 14:01:58,Auth,alice,192.168.1.35,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 14:21:22,Auth,carol,10.0.0.54,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 14:48:15,Web,bob,192.168.2.40,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 15:01:48,Web,eve,192.168.3.27,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 15:02:48,Web,eve,192.168.3.21,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 15:13:29,Web,alice,192.168.1.26,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 15:17:20,Web,bob,192.168.2.25,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 15:27:19,Auth,dave,172.16.5.46,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 15:50:02,Auth,bob,192.168.2.32,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 15:50:39,Auth,dave,172.16.5.24,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 15:58:18,Auth,eve,192.168.3.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 16:01:05,Auth,alice,192.168.1.51,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 16:02:48,Web,alice,192.168.1.25,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 16:15:06,Auth,bob,192.168.2.54,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 16:17:39,Web,bob,192.168.2.44,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 16:23:04,Auth,bob,192.168.2.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 16:25:52,Web,eve,192.168.3.45,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 16:37:42,Web,dave,172.16.5.22,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 16:38:51,Auth,bob,192.168.2.17,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-25 16:55:48,Web,carol,10.0.0.16,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 16:57:53,Web,bob,192.168.2.55,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 17:07:49,Web,alice,192.168.1.20,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 17:20:38,Web,eve,192.168.3.11,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 17:34:08,Web,carol,10.0.0.12,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 17:37:48,Web,carol,10.0.0.48,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-25 17:38:30,Web,dave,172.16.5.12,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 06:08:32,Auth,bob,192.168.2.47,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 06:17:54,Web,eve,192.168.3.18,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 06:18:46,Web,alice,192.168.1.47,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 06:19:50,Web,carol,10.0.0.12,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 06:36:55,Auth,carol,10.0.0.53,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 07:06:15,Web,dave,172.16.5.18,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 07:29:04,Auth,dave,172.16.5.19,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 07:29:07,Auth,alice,192.168.1.51,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 07:42:13,Web,eve,192.168.3.50,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 07:53:48,Web,eve,192.168.3.23,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 07:54:21,Auth,bob,192.168.2.53,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 07:55:54,Auth,bob,192.168.2.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 08:02:02,Web,dave,172.16.5.41,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 08:11:05,Web,bob,192.168.2.34,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 08:14:29,Web,bob,192.168.2.26,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 08:44:19,Web,bob,192.168.2.12,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 08:47:26,Web,eve,192.168.3.17,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 08:50:34,Auth,dave,172.16.5.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 09:08:50,Web,eve,192.168.3.23,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 09:38:51,Web,carol,10.0.0.24,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 09:45:10,Auth,alice,192.168.1.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 10:01:53,Auth,carol,10.0.0.52,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 10:02:44,Auth,eve,192.168.3.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 10:12:07,Web,eve,192.168.3.39,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 10:20:47,Web,carol,10.0.0.21,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 10:21:39,Auth,bob,192.168.2.54,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 10:29:54,Auth,carol,10.0.0.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 10:34:07,Web,dave,172.16.5.33,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 10:43:34,Web,bob,192.168.2.14,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 10:49:50,Web,alice,192.168.1.36,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 10:53:10,Auth,dave,172.16.5.26,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 11:01:11,Web,eve,192.168.3.13,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:05:50,Web,dave,172.16.5.10,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:27:09,Web,bob,192.168.2.43,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:37:19,Auth,carol,10.0.0.50,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 11:40:45,Web,bob,192.168.2.41,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:49:09,Web,eve,192.168.3.48,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:50:03,Web,bob,192.168.2.32,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:50:50,Web,eve,192.168.3.47,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:55:12,Web,alice,192.168.1.25,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 11:59:50,Web,alice,192.168.1.27,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 12:02:20,Web,alice,192.168.1.40,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 12:36:43,Web,bob,192.168.2.21,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 12:41:06,Auth,eve,192.168.3.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 12:52:40,Web,dave,172.16.5.16,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 12:53:30,Web,alice,192.168.1.25,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 12:54:30,Auth,carol,10.0.0.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 13:00:46,Auth,bob,192.168.2.19,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 13:07:01,Auth,alice,192.168.1.50,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 13:15:54,Auth,eve,192.168.3.33,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 13:16:42,Web,bob,192.168.2.39,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 13:23:42,Auth,eve,192.168.3.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 13:34:30,Web,alice,192.168.1.31,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 13:35:09,Web,alice,192.168.1.22,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 13:51:18,Auth,dave,172.16.5.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 14:02:39,Web,bob,192.168.2.25,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 14:08:59,Auth,alice,192.168.1.28,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 14:16:51,Web,eve,192.168.3.17,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 14:20:58,Web,dave,172.16.5.24,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 14:26:05,Auth,alice,192.168.1.24,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 14:26:37,Auth,eve,192.168.3.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 14:48:34,Web,alice,192.168.1.39,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:01:03,Web,eve,192.168.3.31,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:13:52,Web,eve,192.168.3.24,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:22:36,Auth,carol,10.0.0.28,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 15:23:46,Web,carol,10.0.0.15,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:24:14,Web,alice,192.168.1.59,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:32:47,Web,alice,192.168.1.14,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:42:31,Web,alice,192.168.1.19,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:43:15,Web,bob,192.168.2.47,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 15:47:31,Web,carol,10.0.0.28,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:04:40,Web,dave,172.16.5.39,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:06:57,Web,carol,10.0.0.51,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:09:04,Auth,bob,192.168.2.40,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 16:12:39,Web,carol,10.0.0.53,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:14:30,Web,dave,172.16.5.49,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:23:34,Auth,eve,192.168.3.51,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 16:28:48,Auth,alice,192.168.1.13,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-26 16:43:58,Web,bob,192.168.2.24,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:45:55,Web,bob,192.168.2.38,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:46:43,Web,dave,172.16.5.45,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:47:43,Web,dave,172.16.5.47,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:50:52,Web,alice,192.168.1.19,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 16:55:01,Web,eve,192.168.3.10,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:04:30,Web,eve,192.168.3.59,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:05:27,Web,bob,192.168.2.58,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:18:32,Web,alice,192.168.1.27,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:19:41,Web,dave,172.16.5.17,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:49:42,Web,carol,10.0.0.18,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 17:58:51,Web,alice,192.168.1.34,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-26 21:40:00,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (1/6) for user bob
+2026-10-26 21:40:18,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (2/6) for user bob
+2026-10-26 21:40:36,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (3/6) for user bob
+2026-10-26 21:40:54,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (4/6) for user bob
+2026-10-26 21:41:12,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (5/6) for user bob
+2026-10-26 21:41:30,Auth,bob,198.51.100.7,LOGIN,FAILED,Repeated login failure (6/6) for user bob
+2026-10-27 06:03:30,Auth,alice,192.168.1.35,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 06:09:10,Web,carol,10.0.0.49,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 06:28:58,Web,eve,192.168.3.46,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 06:29:58,Auth,dave,172.16.5.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 06:38:59,Web,bob,192.168.2.54,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 06:43:05,Web,carol,10.0.0.38,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 06:50:40,Web,eve,192.168.3.31,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 07:05:27,Auth,bob,192.168.2.16,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 07:21:06,Web,eve,192.168.3.53,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 07:22:27,Web,carol,10.0.0.28,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 07:25:40,Auth,dave,172.16.5.57,LOGIN,FAILED,Invalid credentials provided
+2026-10-27 07:25:55,Auth,dave,172.16.5.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 07:25:55,Web,dave,172.16.5.57,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 07:31:45,Auth,alice,192.168.1.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 07:32:40,Web,dave,172.16.5.43,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 07:50:44,Web,alice,192.168.1.51,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 08:02:15,Web,eve,192.168.3.38,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 08:08:24,Auth,dave,172.16.5.44,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 08:38:09,Web,dave,172.16.5.58,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 08:51:39,Web,dave,172.16.5.54,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 09:05:00,Auth,carol,10.0.0.77,LOGIN,FAILED,Occasional mistyped password attempt
+2026-10-27 09:05:30,Auth,carol,10.0.0.77,LOGIN,FAILED,Occasional mistyped password attempt
+2026-10-27 09:06:00,Auth,carol,10.0.0.77,LOGIN,FAILED,Occasional mistyped password attempt
+2026-10-27 09:06:09,Web,dave,172.16.5.22,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 09:27:28,Web,alice,192.168.1.36,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 09:27:37,Web,dave,172.16.5.43,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 09:49:08,Web,carol,10.0.0.26,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:01:11,Web,bob,192.168.2.54,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:04:41,Auth,eve,192.168.3.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 10:07:25,Web,dave,172.16.5.30,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:29:28,Auth,eve,192.168.3.12,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 10:29:32,Web,alice,192.168.1.37,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:37:03,Auth,eve,192.168.3.32,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 10:38:19,Web,bob,192.168.2.16,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:39:40,Web,alice,192.168.1.45,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 10:46:20,Auth,carol,10.0.0.59,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 11:05:27,Web,dave,172.16.5.16,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:07:00,Auth,dave,172.16.5.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 11:09:43,Auth,bob,192.168.2.40,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 11:14:21,Web,dave,172.16.5.20,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:22:00,Auth,carol,10.0.0.21,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 11:23:58,Web,eve,192.168.3.34,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:38:09,Web,alice,192.168.1.18,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:45:05,Web,eve,192.168.3.51,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:46:52,Web,dave,172.16.5.19,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:51:08,Auth,bob,192.168.2.45,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 11:52:29,Web,alice,192.168.1.36,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 11:55:42,Auth,bob,192.168.2.58,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 12:17:13,Web,carol,10.0.0.42,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 12:18:16,Web,eve,192.168.3.52,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 12:26:29,Auth,carol,10.0.0.31,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 12:49:21,Web,eve,192.168.3.48,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 13:04:30,Auth,eve,192.168.3.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 13:14:54,Web,bob,192.168.2.32,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 13:29:48,Web,dave,172.16.5.58,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 13:33:33,Web,eve,192.168.3.20,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 13:37:35,Web,eve,192.168.3.57,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 14:09:03,Web,eve,192.168.3.16,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 14:12:57,Web,dave,172.16.5.32,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 14:23:07,Web,bob,192.168.2.27,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 14:35:21,Auth,bob,192.168.2.52,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 14:35:53,Auth,dave,172.16.5.52,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 14:37:06,Auth,alice,192.168.1.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 15:02:46,Auth,alice,192.168.1.60,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 15:03:00,Web,carol,10.0.0.29,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:14:51,Web,bob,192.168.2.45,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:20:55,Auth,eve,192.168.3.50,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 15:25:45,Web,dave,172.16.5.36,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:32:13,Web,bob,192.168.2.52,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:39:43,Web,bob,192.168.2.45,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:42:09,Web,eve,192.168.3.29,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 15:42:25,Auth,carol,10.0.0.14,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 15:55:09,Web,eve,192.168.3.15,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:01:05,Auth,carol,10.0.0.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 16:04:11,Web,dave,172.16.5.50,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:12:20,Web,eve,192.168.3.40,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:19:02,Web,carol,10.0.0.35,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:27:31,Web,carol,10.0.0.38,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:33:19,Auth,alice,192.168.1.39,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 16:43:37,Web,carol,10.0.0.43,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:56:49,Web,alice,192.168.1.56,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 16:59:56,Auth,eve,192.168.3.46,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-27 17:06:20,Web,alice,192.168.1.30,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-27 17:20:24,Web,alice,192.168.1.43,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 00:14:00,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (1/7) for user admin
+2026-10-28 00:14:12,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (2/7) for user admin
+2026-10-28 00:14:24,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (3/7) for user admin
+2026-10-28 00:14:36,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (4/7) for user admin
+2026-10-28 00:14:48,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (5/7) for user admin
+2026-10-28 00:15:00,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (6/7) for user admin
+2026-10-28 00:15:12,Auth,admin,45.33.12.99,LOGIN,FAILED,Failed password attempt (7/7) for user admin
+2026-10-28 00:15:24,Auth,admin,45.33.12.99,LOGIN,SUCCESS,Authentication succeeded after multiple failure attempts
+2026-10-28 06:09:54,Web,eve,192.168.3.53,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 06:16:13,Auth,carol,10.0.0.19,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 06:22:34,Web,carol,10.0.0.51,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 06:38:09,Web,eve,192.168.3.38,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 06:39:22,Web,carol,10.0.0.46,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 06:46:55,Auth,eve,192.168.3.32,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 06:47:11,Web,eve,192.168.3.43,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 06:55:41,Web,dave,172.16.5.27,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:07:53,Web,carol,10.0.0.48,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:23:14,Web,bob,192.168.2.30,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:32:49,Web,alice,192.168.1.57,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:42:40,Auth,eve,192.168.3.35,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 07:51:23,Web,dave,172.16.5.35,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:53:45,Web,bob,192.168.2.31,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 07:58:14,Web,bob,192.168.2.38,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 08:04:18,Web,alice,192.168.1.60,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 08:08:02,Web,bob,192.168.2.40,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 08:11:53,Web,alice,192.168.1.59,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 08:31:44,Web,dave,172.16.5.33,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 08:38:45,Auth,alice,192.168.1.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 08:52:12,Auth,bob,192.168.2.48,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 08:53:49,Web,carol,10.0.0.39,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 09:19:07,Auth,carol,10.0.0.13,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 09:19:51,Web,alice,192.168.1.40,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 09:21:49,Auth,alice,192.168.1.41,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 09:45:09,Web,carol,10.0.0.37,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 09:56:02,Auth,dave,172.16.5.30,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 10:03:41,Auth,bob,192.168.2.40,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 10:05:48,Web,bob,192.168.2.27,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 10:45:28,Web,eve,192.168.3.49,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 10:49:24,Auth,bob,192.168.2.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 11:01:23,Auth,alice,192.168.1.29,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 11:23:28,Web,eve,192.168.3.14,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 11:41:17,Web,eve,192.168.3.17,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 11:43:36,Auth,bob,192.168.2.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 11:50:04,Web,carol,10.0.0.25,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 11:59:01,Web,bob,192.168.2.13,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:05:27,Web,dave,172.16.5.21,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:10:44,Auth,eve,192.168.3.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 12:11:42,Web,carol,10.0.0.15,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:17:40,Auth,eve,192.168.3.60,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 12:23:16,Web,carol,10.0.0.11,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:32:23,Web,bob,192.168.2.34,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:41:50,Auth,alice,192.168.1.31,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 12:55:30,Web,carol,10.0.0.50,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 12:58:35,Web,eve,192.168.3.26,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 13:02:03,Auth,dave,172.16.5.22,LOGIN,FAILED,Invalid credentials provided
+2026-10-28 13:02:08,Web,eve,192.168.3.25,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 13:02:18,Auth,dave,172.16.5.22,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 13:02:26,Web,alice,192.168.1.53,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 13:28:39,Auth,carol,10.0.0.10,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 13:57:32,Web,bob,192.168.2.37,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:01:40,Web,carol,10.0.0.46,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:02:42,Web,alice,192.168.1.59,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:05:41,Auth,alice,192.168.1.52,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 14:17:51,Web,dave,172.16.5.56,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:18:20,Web,dave,172.16.5.15,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:23:04,Web,carol,10.0.0.44,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 14:25:52,Auth,dave,172.16.5.44,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 14:50:32,Web,carol,10.0.0.11,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 15:08:33,Web,eve,192.168.3.35,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 15:08:38,Web,alice,192.168.1.19,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 15:33:27,Auth,carol,10.0.0.17,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 15:47:48,Web,carol,10.0.0.18,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 15:51:57,Web,alice,192.168.1.56,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 16:12:18,Web,dave,172.16.5.59,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 16:18:19,Auth,eve,192.168.3.38,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 16:23:23,Web,eve,192.168.3.46,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 16:44:53,Auth,alice,192.168.1.57,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-28 17:05:00,Network,N/A,103.251.167.20,TCP_SYN,BLOCKED,Inbound connection probe targeting destination port: 21
+2026-10-28 17:05:04,Network,N/A,103.251.167.20,TCP_SYN,ALLOWED,Inbound connection probe targeting destination port: 22
+2026-10-28 17:05:08,Network,N/A,103.251.167.20,TCP_SYN,BLOCKED,Inbound connection probe targeting destination port: 23
+2026-10-28 17:05:12,Network,N/A,103.251.167.20,TCP_SYN,ALLOWED,Inbound connection probe targeting destination port: 80
+2026-10-28 17:05:16,Network,N/A,103.251.167.20,TCP_SYN,ALLOWED,Inbound connection probe targeting destination port: 443
+2026-10-28 17:05:20,Network,N/A,103.251.167.20,TCP_SYN,ALLOWED,Inbound connection probe targeting destination port: 3306
+2026-10-28 17:05:24,Network,N/A,103.251.167.20,TCP_SYN,ALLOWED,Inbound connection probe targeting destination port: 8080
+2026-10-28 17:15:28,Web,alice,192.168.1.28,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 17:28:57,Web,dave,172.16.5.31,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 17:30:40,Web,carol,10.0.0.18,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 17:42:40,Web,carol,10.0.0.59,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 17:50:28,Web,alice,192.168.1.44,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-28 17:54:33,Web,bob,192.168.2.17,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 01:30:00,Auth,alice,203.0.113.44,LOGIN,SUCCESS,Successful login from brand new external IP 203.0.113.44
+2026-10-29 06:05:25,Web,carol,10.0.0.39,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 06:10:28,Web,bob,192.168.2.40,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 06:18:31,Web,carol,10.0.0.51,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 07:02:41,Web,bob,192.168.2.46,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 07:08:06,Auth,dave,172.16.5.35,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 07:08:20,Web,alice,192.168.1.14,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 07:27:08,Web,carol,10.0.0.56,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 07:33:09,Web,alice,192.168.1.20,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 07:35:34,Auth,alice,192.168.1.28,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 07:51:43,Auth,alice,192.168.1.30,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 08:15:50,Web,alice,192.168.1.11,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:20:59,Web,alice,192.168.1.24,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:20:59,Web,dave,172.16.5.30,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:25:39,Web,dave,172.16.5.29,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:45:21,Web,dave,172.16.5.40,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:45:45,Auth,alice,192.168.1.54,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 08:48:23,Auth,carol,10.0.0.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 08:52:43,Web,eve,192.168.3.12,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 08:56:53,Web,alice,192.168.1.45,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 09:09:06,Auth,carol,10.0.0.13,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 09:13:37,Web,carol,10.0.0.13,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 09:35:20,Web,eve,192.168.3.40,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 09:48:10,Web,carol,10.0.0.42,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 10:25:45,Web,alice,192.168.1.40,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 10:35:19,Web,eve,192.168.3.29,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 10:39:30,Web,eve,192.168.3.25,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 10:41:13,Web,bob,192.168.2.46,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 10:45:13,Web,eve,192.168.3.55,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 11:15:29,Auth,carol,10.0.0.17,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 11:35:23,Auth,dave,172.16.5.58,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 11:35:36,Web,alice,192.168.1.39,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 11:46:55,Auth,carol,10.0.0.32,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 11:48:25,Web,carol,10.0.0.12,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 11:59:36,Web,carol,10.0.0.30,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 12:03:36,Web,carol,10.0.0.22,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 12:10:00,Web,anonymous,91.240.118.172,HTTP_PAYLOAD,BLOCKED,"GET /api/v1/users?id=1' UNION SELECT username,password FROM accounts-- HTTP/1.1"
+2026-10-29 12:10:25,Web,anonymous,91.240.118.172,HTTP_PAYLOAD,BLOCKED,POST /login username=admin' OR '1'='1'--&pass=x HTTP/1.1
+2026-10-29 12:19:29,Web,bob,192.168.2.54,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 12:32:58,Web,alice,192.168.1.13,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 12:39:40,Web,bob,192.168.2.41,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 12:55:39,Auth,carol,10.0.0.36,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 13:10:33,Auth,eve,192.168.3.50,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 13:11:57,Auth,alice,192.168.1.55,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 13:12:07,Auth,alice,192.168.1.18,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 13:13:21,Web,bob,192.168.2.19,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:15:51,Web,bob,192.168.2.53,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:20:26,Web,eve,192.168.3.36,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:20:30,Web,eve,192.168.3.45,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:29:43,Web,alice,192.168.1.32,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:31:56,Web,carol,10.0.0.41,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 13:52:01,Web,dave,172.16.5.31,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:08:39,Web,alice,192.168.1.14,HTTP_GET,SUCCESS,GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:14:07,Web,alice,192.168.1.60,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:17:52,Auth,dave,172.16.5.49,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 14:18:04,Auth,dave,172.16.5.34,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 14:21:34,Web,eve,192.168.3.53,HTTP_GET,SUCCESS,GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:24:20,Web,eve,192.168.3.39,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:26:49,Web,alice,192.168.1.46,HTTP_GET,SUCCESS,GET /login HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:29:09,Web,dave,172.16.5.42,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:31:45,Web,dave,172.16.5.29,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 14:45:00,Web,guest,185.220.101.5,HTTP_POST,SUCCESS,POST /feedback content=<script>alert('XSS-Exploit')</script> HTTP/1.1
+2026-10-29 14:57:18,Auth,bob,192.168.2.15,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:21:32,Web,dave,172.16.5.42,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 15:21:38,Auth,bob,192.168.2.46,LOGIN,FAILED,Invalid credentials provided
+2026-10-29 15:21:53,Auth,bob,192.168.2.46,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:30:16,Auth,eve,192.168.3.51,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:32:10,Auth,dave,172.16.5.42,LOGIN,FAILED,Invalid credentials provided
+2026-10-29 15:32:25,Auth,dave,172.16.5.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:34:05,Auth,bob,192.168.2.42,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:36:14,Auth,eve,192.168.3.56,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:37:09,Auth,bob,192.168.2.20,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 15:44:07,Web,eve,192.168.3.11,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 15:58:30,Web,eve,192.168.3.57,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 16:07:26,Web,dave,172.16.5.29,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 16:30:18,Web,carol,10.0.0.10,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 16:34:18,Web,bob,192.168.2.29,HTTP_GET,SUCCESS,GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 16:35:17,Auth,bob,192.168.2.18,LOGIN,SUCCESS,User authentication successful via password + session token
+2026-10-29 16:37:11,Web,alice,192.168.1.18,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 17:03:45,Web,eve,192.168.3.43,HTTP_GET,SUCCESS,GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 17:13:26,Web,eve,192.168.3.59,HTTP_GET,SUCCESS,GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 17:43:41,Web,eve,192.168.3.54,HTTP_GET,SUCCESS,GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+2026-10-29 19:15:00,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_0 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:00,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_1 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:00,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_2 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:01,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_3 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:01,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_4 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:02,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_5 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:02,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_6 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:02,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_7 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:03,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_8 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:03,Web,anonymous,45.33.12.99,HTTP_GET,SUCCESS,GET /search?q=stress_test_9 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:04,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_10 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:04,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_11 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:04,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_12 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:05,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_13 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:05,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_14 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:06,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_15 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:06,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_16 HTTP/1.1 429 Too Many Requests
+2026-10-29 19:15:06,Web,anonymous,45.33.12.99,HTTP_GET,RATE_LIMITED,GET /search?q=stress_test_17 HTTP/1.1 429 Too Many Requests

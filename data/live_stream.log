@@ -1,0 +1,50 @@
+[2026-10-29 13:31:56] [Web] [10.0.0.41] [carol] SUCCESS: GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 13:52:01] [Web] [172.16.5.31] [dave] SUCCESS: GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:08:39] [Web] [192.168.1.14] [alice] SUCCESS: GET /index.html HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:14:07] [Web] [192.168.1.60] [alice] SUCCESS: GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:17:52] [Auth] [172.16.5.49] [dave] SUCCESS: User authentication successful via password + session token
+[2026-10-29 14:18:04] [Auth] [172.16.5.34] [dave] SUCCESS: User authentication successful via password + session token
+[2026-10-29 14:21:34] [Web] [192.168.3.53] [eve] SUCCESS: GET /api/v1/metrics HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:24:20] [Web] [192.168.3.39] [eve] SUCCESS: GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:26:49] [Web] [192.168.1.46] [alice] SUCCESS: GET /login HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:29:09] [Web] [172.16.5.42] [dave] SUCCESS: GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:31:45] [Web] [172.16.5.29] [dave] SUCCESS: GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 14:45:00] [Web] [185.220.101.5] [guest] SUCCESS: POST /feedback content=<script>alert('XSS-Exploit')</script> HTTP/1.1
+[2026-10-29 14:57:18] [Auth] [192.168.2.15] [bob] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:21:32] [Web] [172.16.5.42] [dave] SUCCESS: GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 15:21:38] [Auth] [192.168.2.46] [bob] FAILED: Invalid credentials provided
+[2026-10-29 15:21:53] [Auth] [192.168.2.46] [bob] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:30:16] [Auth] [192.168.3.51] [eve] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:32:10] [Auth] [172.16.5.42] [dave] FAILED: Invalid credentials provided
+[2026-10-29 15:32:25] [Auth] [172.16.5.42] [dave] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:34:05] [Auth] [192.168.2.42] [bob] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:36:14] [Auth] [192.168.3.56] [eve] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:37:09] [Auth] [192.168.2.20] [bob] SUCCESS: User authentication successful via password + session token
+[2026-10-29 15:44:07] [Web] [192.168.3.11] [eve] SUCCESS: GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 15:58:30] [Web] [192.168.3.57] [eve] SUCCESS: GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 16:07:26] [Web] [172.16.5.29] [dave] SUCCESS: GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 16:30:18] [Web] [10.0.0.10] [carol] SUCCESS: GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 16:34:18] [Web] [192.168.2.29] [bob] SUCCESS: GET /settings HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 16:35:17] [Auth] [192.168.2.18] [bob] SUCCESS: User authentication successful via password + session token
+[2026-10-29 16:37:11] [Web] [192.168.1.18] [alice] SUCCESS: GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 17:03:45] [Web] [192.168.3.43] [eve] SUCCESS: GET /dashboard HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 17:13:26] [Web] [192.168.3.59] [eve] SUCCESS: GET /profile HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 17:43:41] [Web] [192.168.3.54] [eve] SUCCESS: GET /assets/style.css HTTP/1.1 200 OK - Mozilla/5.0
+[2026-10-29 19:15:00] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_0 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:00] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_1 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:00] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_2 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:01] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_3 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:01] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_4 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:02] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_5 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:02] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_6 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:02] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_7 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:03] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_8 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:03] [Web] [45.33.12.99] [anonymous] SUCCESS: GET /search?q=stress_test_9 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:04] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_10 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:04] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_11 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:04] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_12 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:05] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_13 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:05] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_14 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:06] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_15 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:06] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_16 HTTP/1.1 429 Too Many Requests
+[2026-10-29 19:15:06] [Web] [45.33.12.99] [anonymous] RATE_LIMITED: GET /search?q=stress_test_17 HTTP/1.1 429 Too Many Requests

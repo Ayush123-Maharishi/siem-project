@@ -1,0 +1,22 @@
+{
+  "detection": {
+    "brute_force_fail_threshold": 5,
+    "brute_force_window_minutes": 5,
+    "unusual_ip_baseline_logins": 5,
+    "port_scan_port_threshold": 4,
+    "port_scan_window_seconds": 60,
+    "ddos_request_threshold": 15,
+    "ddos_window_seconds": 10
+  },
+  "notifications": {
+    "discord_webhook_url": "",
+    "slack_webhook_url": "",
+    "email_enabled": false,
+    "email_recipient": "",
+    "min_severity_to_notify": "High"
+  },
+  "threat_intel": {
+    "abuseipdb_api_key": "",
+    "enable_offline_geo": true
+  }
+}
